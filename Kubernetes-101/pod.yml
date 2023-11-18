@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: first-pod
   labels:
-    zone: prod
+    zone: production
     version: v1
     project: catgif
     application: catv1
