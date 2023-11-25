@@ -1,4 +1,5 @@
 # Horizontal Pod autoscaler
+Documentation link - https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/
 
 Install Metrics server
 ---------------------------
@@ -13,7 +14,7 @@ Create nginx deployment, service & hpa
 -------------------------------------------
 > It is mandatory to set requests on cpu utilization for this demo
 
-`kubectl apply -f https://raw.githubusercontent.com/lerndevops/educka/master/3-controllers/hpa/hpa-cpu.yml` 
+`kubectl apply -f https://raw.githubusercontent.com/nachikethmurthy/kubernetes-administrator-certification/main/2.Controllers/hpa/hpa-cpu.yml` 
 
 ~~~
 kubectl get hpa 
