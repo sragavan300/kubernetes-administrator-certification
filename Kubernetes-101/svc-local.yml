@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: svc-local
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   - port: 6000 # Service IP Port
     protocol: TCP
